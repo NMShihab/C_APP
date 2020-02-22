@@ -4,13 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_bar"
+        android:queryHint="Search here"
+        android:iconifiedByDefault="false"/>
+
     <ListView
+        android:id="@+id/lview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello World!"
-        android:id="@+id/lview"
-        android:listSelector="#8ABB18"/>
+        android:text="Hello World!" />
 
 </LinearLayout>

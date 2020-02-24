@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Search
         my_search_view.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {

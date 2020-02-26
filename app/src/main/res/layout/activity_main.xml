@@ -24,16 +24,17 @@
                 android:id="@+id/lview">
             </ListView>
 
-            <com.google.android.material.floatingactionbutton.FloatingActionButton
-                android:id="@+id/floatingActionButton"
-                layout_alignParentEnd="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentBottom="true"
-                app:useCompatPadding="true"
-                android:clickable="true"
-                app:srcCompat="@drawable/ic_add_24px" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            app:backgroundTint="fffff"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_add_24px"
+            app:useCompatPadding="true" />
 
 
 
